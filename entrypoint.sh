@@ -2,8 +2,8 @@
 
 echo "Hello World"
 
-echo "Name: $myname"
+echo "Name: ${myname}"
 
-echo "Secret: $mysecret"
+echo "Secret: ${mysecret}"
 
 tail -f /dev/null
