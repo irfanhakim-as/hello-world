@@ -5,6 +5,6 @@ RUN apk add --no-cache \
     curl \
     && rm -rf /var/cache/apk/*
 
-COPY entrypoint.sh /entrypoint.sh
+COPY --chmod=0755 entrypoint.sh /
 
 ENTRYPOINT ["/entrypoint.sh"]
